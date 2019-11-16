@@ -58,7 +58,7 @@
    
 		stage('DAST') {
         
-			node('Ubuntu-app-agent''){
+			node('Ubuntu-app-agent'){
            // build 'OWASP-ZAP' 
 
             sh 'echo "DAST Test passed"'
