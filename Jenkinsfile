@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Image and Vulnerabilty Scan ') {
             steps {
-                     sh ''
+                     sh 'echo "hello'
                 }
         }
         stage('Post to Docker Hub  ') {
