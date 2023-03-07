@@ -12,7 +12,7 @@ pipeline {
         }
         stage('SAST') {
             steps {
-                    sh ''
+                   
                 }
             }
         stage('Build and Tag ') {
@@ -45,7 +45,7 @@ pipeline {
         }
         stage('DAAST  ') {
             steps {
-                     sh ''
+                    
                 }
         }
     }
